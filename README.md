@@ -19,7 +19,7 @@ Apprendre les fondamentaux :
 Cloner le repository :
 
 ```bash
-git clone https://github.com/username/cours-php.git
+git clone https://github.com/Nino-Rameau/cours-php.git
 ```
 
 Entrer dans le dossier :
