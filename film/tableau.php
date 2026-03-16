@@ -25,13 +25,13 @@
                 }
 
                 echo "<tr class='bg-gray-100 font-bold'>";
-                    echo "<td colspan='2' class='border border-gray-300 p-3 text-left'>Moyenne générale</td>";
-                    echo "<td colspan='3' class='border border-gray-300 p-3 text-left'>" . Moyenne($films) . " /5 </td>";
+                    echo "<td colspan='3' class='border border-gray-300 p-3 text-left'>Moyenne générale</td>";
+                    echo "<td colspan='2' class='border border-gray-300 p-3 text-left'>" . Moyenne($films) . " /5 </td>";
                 echo "</tr>";
 
                 echo "<tr class='bg-gray-100 font-bold'>";
-                    echo "<td colspan='2' class='border border-gray-300 p-3 text-left'>Nombre de films par genre</td>";
-                    echo "<td colspan='3' class='border border-gray-300 p-3 text-left'>" . NombreGenre($films) . "</td>";
+                    echo "<td colspan='3' class='border border-gray-300 p-3 text-left'>Nombre de films par genre</td>";
+                    echo "<td colspan='2' class='border border-gray-300 p-3 text-left'>" . NombreGenre($films) . "</td>";
                 echo "</tr>";
             ?>
         </tbody>
